@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.slider-wrapper{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.slider-wrapper .sliders{
+    width: 100%;
+    height: 800px;
+}
+.slider-wrapper .sliders .slider-item{
+    width: 100%;
+    height: 800px;
+    display: none;
+    opacity: 0;
+}
+.slider-wrapper .sliders .item-one{
+    background: url(./../images/bg-1.jpg) no-repeat;
+    display: block;
+    opacity: 1;
+}
+.slider-wrapper .sliders .item-two{
+    background: url(./../images/bg-2.jpg) no-repeat;
+}
+.slider-wrapper .sliders .item-three{
+    background: url(./../images/bg-3.jpg) no-repeat;
+}
+.slider-wrapper .slider-box{
+    width: 900px;
+    margin: 0 auto;
+}
+.slider-wrapper .sliders .slider-item .slider-box{
+    padding-top: 100px;
+}
+.slider-wrapper .sliders .slider-item .slider-box .description{
+    width: 400px;
+    float: left;
+    margin-top: 200px;
+}
+.slider-wrapper .sliders .slider-item .slider-box .description h1, h2, p{
+    color: #fff;
+    padding: 10px 0;
+}
+.slider-wrapper .sliders .slider-item .slider-box .img{
+    width: 400px;
+    float: right;
+}
+img{
+    width: 0%;
+}
+
+
+.slider-wrapper .slider-btn{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 100%;
+}
+.slider-wrapper .slider-btn div{
+    width: 30px;
+    height: 40px;
+}
+.slider-wrapper .slider-btn .prev{
+    position: absolute;
+    left: 100px;
+    background: url(./../images/left-arrow.png) no-repeat;
+}
+.slider-wrapper .slider-btn .next{
+    position: absolute;
+    right: 100px;
+    background: url(./../images/right-arrow.png) no-repeat;
+}
+
+.slider-wrapper .slider-radius{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.slider-wrapper .slider-radius ul{
+    width: 450px;
+    float: right;
+    text-align: center;
+}
+
+.slider-wrapper .slider-radius ul li{
+    width: 17px;
+    height: 17px;
+    background: url(./../images/slider_control.png);
+    display: inline-block;
+    
+}
+.slider-wrapper .slider-radius ul .active-radius{
+    background: url(./../images/active_slider_control.png);
+}
+
+
+
+
+
+
+
+
+
+
